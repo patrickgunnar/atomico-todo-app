@@ -1,0 +1,269 @@
+.calender_page__main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.calender_page__header_content_section,
+.calender_page__main_content_section {
+    align-items: center;
+    background: var(--transparent-background);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 95%;
+}
+
+.calender_page__header_content_section {
+    border-top-left-radius: var(--border-radius-100);
+    border-bottom-left-radius: var(--border-radius-100);
+    width: 60%;
+}
+
+.calender_page__main_content_section {
+    border-top-right-radius: var(--border-radius-100);
+    border-bottom-right-radius: var(--border-radius-100);
+    width: 40%;
+}
+
+.calender_page__header_table {
+    width: 95%;
+}
+
+.calender_page__header_content_calender {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    margin: auto;
+    height: 80%;
+    width: 85%;
+}
+
+.calender_page__calender_header {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: linear-gradient(var(--hover-gradient-background-color-101));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    display: flex;
+    margin: var(--font-size-of-130) auto;
+    height: var(--height-size-08);
+    width: 95%;
+}
+
+.calender_page__calender_header > :first-child {
+    border-top-left-radius: var(--border-radius-110);
+    border-bottom-left-radius: var(--border-radius-110);
+}
+
+.calender_page__calender_header > :last-child {
+    border-top-right-radius: var(--border-radius-110);
+    border-bottom-right-radius: var(--border-radius-110);
+}
+
+.calender_page__calender_nav {
+    background: var(--transparent-background);
+    border: none;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-130);
+    justify-content: center;
+    margin: auto 0;
+    height: 100%;
+    width: 18%;
+}
+
+.calender_page__calender_nav:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.calender_page__calender_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-of-135);
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    width: 64%;
+}
+
+.calender_page__calender_main_content {
+    background: var(--transparent-background);
+    border: none;
+    margin: 5% auto;
+    height: calc(100% - var(--height-size-53));
+    width: 90%;
+}
+
+.calender_page__calender_main_content_week_days_group {
+    background: -moz-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -webkit-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -o-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: linear-gradient(var(--box-transparency-gradient-background-color-25));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    display: grid;
+    cursor: default;
+    grid-template-columns: repeat(7, calc(100% / 7));
+    margin-bottom: var(--min-height-15-03);
+    height: 10%;
+    min-height: 8%;
+    width: 100%;
+}
+
+.calender_page__calender_main_content_week_days {
+    align-items: center;
+    display: flex;
+}
+
+.calender_page__calender_main_content_week_days p {
+    text-align: center;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-135);
+    height: fit-content;
+    width: 100%;
+}
+
+.calender_page__calender_main_content_days {
+    background: var(--transparent-background);
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(7, calc(100% / 7));
+    height: 90%;
+    width: 100%;
+}
+
+.calender_page__calender_main_content_days div {
+    align-items: center;
+    border: none;
+    border-radius: var(--border-radius-110);
+    display: flex;
+}
+
+.calender_page__calender_main_content_days div:hover {
+    background: -moz-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -webkit-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -o-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: linear-gradient(var(--box-transparency-gradient-background-color-25));
+}
+
+.calender_page__calender_main_content_days p {
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-138);
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.calender_page__content_header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: var(--min-height-17) auto;
+    margin-bottom: var(--min-height-30);
+    height: var(--height-size-010);
+    width: 40%;
+}
+
+.calender_page__content_header button {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    color: var(--dark-color-50);
+    cursor: pointer;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-130);
+    height: 95%;
+    width: 95%;
+}
+
+.calender_page__content_header button:hover {
+    background: -moz-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -webkit-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -o-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: linear-gradient(var(--box-transparency-gradient-background-color-25));
+}
+
+.calender_page__calender_today {
+    border: 0.5px solid var(--blue-transparency-color) !important;
+}
+
+.calender_page__calender_inactive {
+    color: var(--gray-color-10);
+    opacity: 0.7;
+}
+
+.calender_page__content__empty {
+    background: var(--transparent-background);
+    margin: var(--min-height-40) auto;
+    height: fit-content;
+    width: 100%;
+}
+
+.calender_page__content__empty p {
+    color: var(--dark-transparency-color-50);
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-126);
+    text-align: center;
+}
+
+.calender_page__main_table {
+    height: 100% !important;
+    width: 90% !important;
+}
+
+.calender_page__main_table_task {
+    width: 100% !important;
+}
+
+@media (max-width: 950px) {
+    .calender_page__main {
+        align-self: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 98%;
+    }
+
+    .calender_page__header_content_section,
+    .calender_page__main_content_section {
+        height: 90%;
+        width: 100%;
+    }
+
+    .calender_page__header_content_calender {
+        margin: var(--min-height-17) auto;
+        height: 90%;
+        width: 96%;
+    }
+
+    .calender_page__calender_main_content {
+        height: calc(100% - var(--height-size-53-02));
+    }
+
+    .calender_page__calender_header {
+        height: var(--height-size-52-02);
+        flex-wrap: wrap;
+    }
+
+    .calender_page__calender_nav {
+        height: var(--height-size-08);
+        width: 100%;
+    }
+
+    .calender_page__calender_main_content_week_days p,
+    .calender_page__calender_main_content_days p {
+        font-size: var(--font-size-of-131);
+    }
+}

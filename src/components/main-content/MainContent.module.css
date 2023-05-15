@@ -1,0 +1,27 @@
+.atomo_app__main_content_group {
+    background: -moz-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -webkit-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: -o-linear-gradient(var(--box-transparency-gradient-background-color-25));
+	background: linear-gradient(var(--box-transparency-gradient-background-color-25));
+    box-shadow: var(--box-shadow-size);
+    border: none;
+    border-radius: var(--border-radius-100);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    min-height: var(--min-height-size-25);
+    height: 83%;
+    width: 75%;
+    top: calc(7vh + 3rem);
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media (max-width: 950px) {
+    .atomo_app__main_content_group {
+        width: 90%;
+    }
+}

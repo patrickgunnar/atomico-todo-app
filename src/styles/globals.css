@@ -1,0 +1,170 @@
+@font-face {
+    font-family: CurrentGolden;
+    src: url('../../public/fonts/Browning.ttf');
+}
+
+:root {
+	--image-url-search-sv: url('../../public/image/svg/search-element.svg');
+	--image-url-list-sv: url('../../public/image/svg/list.svg');
+	--image-url-folder-sv: url('../../public/image/svg/folder.svg');
+	--image-url-settings-sv: url('../../public/image/svg/settings.svg');
+	--image-url-expand-sv: url('../../public/image/svg/expand.svg');
+	--image-url-expand-less-sv: url('../../public/image/svg/expand-less.svg');
+	--image-url-nav-prev-sv: url('../../public/image/svg/arrow-left.svg');
+	--image-url-nav-next-sv: url('../../public/image/svg/arrow-right.svg');
+	--image-url-fav-on-sv: url('../../public/image/svg/full-star.svg');
+	--image-url-fav-off-sv: url('../../public/image/svg/star.svg');
+	--image-url-mobile-menu-on-sv: url('../../public/image/svg/menu.svg');
+	--image-url-mobile-menu-off-sv: url('../../public/image/svg/menu-close.svg');
+
+	--root-background-color: #1a6798, #1073af, #1182ba, #1585bc, #1ba1d5, #30b3dd, #45bcdc, #5ebdd9;
+	--box-gradient-background-color-50: #f2c30d, #ed9d24;
+	--box-gradient-background-color-60: #a68709, #795011;
+	--box-transparency-gradient-background-color-25: #f6b373e6, #e98442e6;
+	--hover-gradient-background-color-50: #c7423b, #ca312a;
+	--hover-gradient-background-color-75: #45bcdc, #30b3dd;
+	--hover-gradient-background-color-100: #1ba1d5, #1585bc;
+	--hover-gradient-background-color-101: #45bcdcd4, #1ba0d5d4;
+	--hover-gradient-background-color-101-02: #45bbdcb7, #1ba0d5b7;
+	--hover-gradient-background-color-102: #f09a94, #f97c82;
+	--hover-gradient-background-color-103: #96b20d, #3d8f23;
+	--hover-gradient-background-color-104: #74b2e6, #2d4e93;
+	--hover-gradient-background-color-104-02: #74b2e6, #4964a0;
+	--hover-gradient-background-color-105: #ed7d7f, #e9596a;
+	--hover-gradient-background-color-105-hover: #ed7d7fb7, #e9596ab7;
+	--hover-gradient-background-color-103-hover: #96b20db7, #3d8f23b7;
+	--hover-gradient-background-color-104-02-hover: #74b2e6b7, #4964a0b7;
+	--hover-gradient-background-color-106: #e69966, #ef7d5e;
+	--hover-gradient-background-color-107: #fce6d9, #b19a9a;
+	--hover-gradient-background-color-108: #ff6f64, #ff000d;
+	--transparent-background: transparent;
+	--white-color-10: #ffffff;
+	--white-color-15: #f1f1f1f1;
+	--red-color-10: #920112;
+	--red-color-15: #ff6f64;
+	--gray-color-10: rgb(107, 104, 104);
+	--dark-color-50: #151515;
+	--dark-transparency-color-50: #15151580;
+	--dark-transparency-color: #00000080;
+	--blue-transparency-color: #1ba1d580;
+	--org-transparency-color: #ed9d2480;
+
+	--box-shadow-size: 1px 1px 0.5em rgba(0, 0, 0, 0.55), inset 1px 1px 0 rgba(0, 0, 0, 0.55), inset -1px -1px 0 rgba(0, 0, 0, 0.21);
+
+	--min-height-10: 1px;
+	--min-height-15: 1.5px;
+	--min-height-15-02: 2px;
+	--min-height-15-03: 4px;
+	--min-height-16: 6px;
+	--min-height-17: 10px;
+	--min-height-18: 18px;
+	--min-height-30: 20px;
+	--min-height-31: 25px;
+	--min-height-40: 40px;
+	--border-radius-50: 4px; 
+	--border-radius-100: 8px;
+	--border-radius-110: 6px;
+	--font-size-of-123: 0.2rem;
+	--font-size-of-124: 0.4rem;
+	--font-size-of-124-00: 0.3rem;
+	--font-size-of-125: 0.7rem;
+	--font-size-of-126: 0.75rem;
+	--font-size-of-130: 0.8rem;
+	--font-size-of-131: 0.85rem;
+	--font-size-of-132: 0.88rem;
+	--font-size-of-135: 0.9rem;
+	--font-size-of-137: 0.92rem;
+	--font-size-of-138: 0.95rem;
+	--font-size-of-145: 1rem;
+	--font-size-of-150: 1.2rem;
+	--height-size-hr: 0.01rem;
+	--height-size-05: 0.5rem;
+	--height-size-06-02: 0.8rem;
+	--height-size-06: 0.85rem;
+	--height-size-07: 1rem;
+	--height-size-07-01-01: 1.2rem;
+	--height-size-07-01-02: 1.4rem;
+	--height-size-07-02: 1.5rem;
+	--height-size-07-03: 1.6rem;
+	--height-size-08: 1.8rem;
+	--height-size-010: 2rem;
+	--height-size-016: 2.6rem;
+	--height-size-50: 3rem;
+	--height-size-50-00: 3.5rem;
+	--height-size-51: 4rem;
+	--height-size-51-00: 4.2rem;
+	--height-size-51-02: 4.8rem;
+	--height-size-52: 5rem;
+	--height-size-52-02: 5.4rem;
+	--height-size-53: 6rem;
+	--height-size-53-00: 7.2rem;
+	--height-size-53-02: 7.5rem;
+	--height-size-54: 8.4rem;
+	--height-size-55: 9rem;
+	--height-size-75: 20rem;
+	--height-size-76: 23rem;
+	--height-size-76-02: 28rem;
+	--height-size-profile-settings: 20rem;
+	--height-calender-tables: 60rem;
+	--width-size-75: 10rem;
+	--width-size-100: 12rem;
+	--min-height-size-25: 500px;
+	--min-height-size-50: 600px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	min-height: var(--min-height-size-50);
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+body {
+	background: -moz-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: -webkit-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: -o-linear-gradient(var(--root-background-color)) no-repeat fixed;
+	background: linear-gradient(var(--root-background-color)) no-repeat fixed;
+}
+
+/* ========================================== */
+/*             SCROLLBAR EDITS                */
+/* ========================================== */
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--white-color-15);
+	margin-top: var(--min-height-17);
+    margin-bottom: var(--min-height-17);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: linear-gradient(var(--hover-gradient-background-color-101));
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: -moz-linear-gradient(var(--root-background-color));
+	background: -webkit-linear-gradient(var(--root-background-color));
+	background: -o-linear-gradient(var(--root-background-color));
+	background: linear-gradient(var(--root-background-color));
+}
+/* END */
+/* ========================================== */
+/*             SCROLLBAR EDITS                */
+/* ========================================== */

@@ -1,0 +1,12 @@
+.canvas__graphic_template {
+    background: var(--transparent-background);
+    border: none;
+    display: flex;
+    position: absolute;
+    min-height: var(--min-height-size-50);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}

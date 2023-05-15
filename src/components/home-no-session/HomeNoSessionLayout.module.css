@@ -1,0 +1,91 @@
+.home__base_main,
+.home__main_btn:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.home__base_main {
+    box-shadow: var(--box-shadow-size);
+    border-radius: var(--border-radius-100);
+    border: none;
+    display: flex;
+    margin: auto;
+    height: 65%;
+    width: 65%;
+}
+
+.home__main_content {
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-100);
+    border: none;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.home__main_hr {
+    border-color: var(--blue-transparency-color);
+}
+
+.home__main_children {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+    background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+    background: -o-linear-gradient(var(--box-gradient-background-color-50));
+    background: linear-gradient(var(--box-gradient-background-color-50));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-100);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 30%;
+    width: 40%;
+}
+
+.home__main_btn {
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-100);
+    border: none;
+    cursor: pointer;
+    font-family: CurrentGolden;
+    font-size: 1.1rem;
+    margin: auto;
+    height: 35%;
+    width: 80%;
+}
+
+.home__main_p {
+    align-items: center;
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-100);
+    border: none;
+    cursor: default;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: auto;
+    height: 35%;
+    width: 80%;
+}
+
+.home__main_children_hr {
+    border-color: var(--org-transparency-color);
+}
+
+@media (max-width: 950px) {
+    .home__base_main {
+        height: 80%;
+        width: 80%;
+    }
+
+    .home__main_content {
+        flex-direction: column;
+    }
+
+    .home__main_children {
+        width: 90%;
+    }
+}

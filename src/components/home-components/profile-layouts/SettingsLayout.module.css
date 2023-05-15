@@ -1,0 +1,225 @@
+.settings_profile__section {
+    align-items: center;
+    align-self: center;
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+    box-shadow: var(--box-shadow-size);
+    border: none;
+    border-radius: var(--border-radius-100);
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    height: 80%;
+    width: 90%;
+}
+
+.settings_profile__content {
+    align-items: center;
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    width: 95%;
+}
+
+.settings_profile__title_box,
+.settings_profile__close_box,
+.settings_profile__content_title_box,
+.settings_profile__content_close_box,
+.settings_profile__content_title_box_2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 8%;
+    width: 100%;
+}
+
+.settings_profile__title_box p,
+.settings_profile__close,
+.settings_profile__content_title_box p,
+.settings_profile__content_close,
+.settings_profile__content_title_box_2 p {
+    align-items: center;
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-101-02));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-101-02));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-101-02));
+	background: linear-gradient(var(--hover-gradient-background-color-101-02));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-100);
+    color: var(--dark-color-50);
+    display: flex;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-131);
+    justify-content: center;
+    height: 80%;
+    width: 30%;
+}
+
+.settings_profile__close,
+.settings_profile__content_close {
+    cursor: pointer;
+}
+
+.settings_profile__close:hover,
+.settings_profile__content_close:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.settings_profile__content_box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.settings_profile__password_box,
+.settings_profile__picture_box,
+.settings_profile__name_email_box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+.settings_profile__email_box,
+.settings_profile__name_box {
+    height: 50%;
+    width: 100%;
+}
+
+.settings_profile__hr {
+    height: 80%;
+    width: var(--height-size-hr);
+}
+
+.settings_profile__hr_2 {
+    margin: auto;
+    height: var(--height-size-hr);
+    width: 80%;
+}
+
+.settings_profile__content_title_box p,
+.settings_profile__content_close,
+.settings_profile__content_title_box_2 p {
+    width: 60%;
+}
+
+.settings_profile__content_close {
+    margin: var(--height-size-07-03) auto;
+    height: var(--height-size-07-03);
+}
+
+.settings_profile__password_box form,
+.settings_profile__picture_box form,
+.settings_profile__name_email_box form {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.settings_profile__picture_box form > input {
+    background: white;
+}
+
+.settings_profile__picture_box form > input::file-selector-button {
+    margin: var(--font-size-of-123);
+    height: var(--height-size-07-01-02);
+}
+
+.settings_profile__label,
+.settings_profile__input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-of-131);
+    height: fit-content;
+    width: 80%;
+}
+
+.settings_profile__input {
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    padding-left: var(--min-height-16);
+    padding-right: var(--min-height-16);
+    margin: var(--min-height-16) auto;
+    height: var(--height-size-08);
+}
+
+.settings_profile__checkbox_box {
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    width: 80%;
+}
+
+.settings_profile__checkbox {
+    margin: auto var(--min-height-16);
+}
+
+.settings_profile__picture_content_box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: var(--font-size-of-124-00) auto;
+    height: var(--height-size-53-02);
+    width: 80%;
+}
+
+.settings_profile__picture_display {
+    height: var(--height-size-53-00);
+    width: var(--height-size-53-00);
+}
+
+.settings_profile__picture_img {
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-50);
+    height: 100%;
+    width: 100%;
+}
+
+.settings_profile__content_title_box_2 {
+    margin: var(--height-size-05) auto;
+    height: 18%;
+}
+
+@media (max-width: 950px) {
+    .settings_profile__content_box {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .settings_profile__password_box,
+    .settings_profile__picture_box,
+    .settings_profile__name_email_box {
+        height: var(--height-size-profile-settings);
+        width: 100%;
+    }
+
+    .settings_profile__hr {
+        margin: auto;
+        height: var(--height-size-hr);
+        width: 80%;
+    }
+
+    .settings_profile__title_box p,
+    .settings_profile__close {
+        width: 60%;
+    }
+}

@@ -1,0 +1,158 @@
+.content_dock__items_list_folder {
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-110);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: var(--border-radius-50) auto;
+    height: var(--height-size-010);
+    width: 90%;
+}
+
+.content_dock__items_list_item {
+    align-items: center;
+    background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-100));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    cursor: pointer;
+    display: flex;
+    padding: 0 0 0 var(--min-height-31);
+    justify-content: left;
+    height: var(--height-size-010);
+    width: 100%;
+}
+
+.content_dock__items_list_item:hover {
+    background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-101));
+}
+
+.content_dock__items_folder_item {
+    background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.content_dock__items_folder_item:hover {
+    background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-101));
+}
+
+.content_dock__items_list_item_title {
+    color: var(--dark-color-50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-of-131);
+    font-weight: bold;
+    margin-left: var(--min-height-16);
+    overflow: hidden;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.content_dock__items_list_item_settings {
+    background: var(--transparent-background);
+    border: none;
+    margin: auto var(--min-height-17);
+    height: var(--min-height-31);
+    width: var(--min-height-31);
+}
+
+.content_dock__items_list_item:hover > .content_dock__items_list_item_settings,
+.content_dock__items_folder_item:hover > .content_dock__items_list_item_settings {
+    background: var(--image-url-settings-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                var(--transparent-background);
+    cursor: pointer;
+}
+
+.content_dock__items_folder_list {
+    background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: var(--image-url-list-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-101));
+    display: none;
+}
+
+.content_dock__items_folder_list:hover {
+    background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.content_dock__items_folder_opened {
+    height: auto;
+}
+
+.content_dock__items_folder_header_opened {
+    background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-less-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-less-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-less-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: var(--image-url-folder-sv) center left/var(--min-height-31) var(--min-height-30) no-repeat,
+                var(--image-url-expand-less-sv) center right/var(--min-height-40) var(--min-height-30) no-repeat,
+                linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.content_dock__items_folder_content_display {
+    display: flex;
+    margin: var(--min-height-15-02) auto;
+    height: var(--height-size-010);
+    width: 90%;
+}
+
+.content_dock__items_empty {
+    background: var(--transparent-background);
+    margin: var(--min-height-40) auto;
+    height: fit-content;
+    width: 100%;
+}
+
+.content_dock__items_empty_title {
+    color: var(--dark-transparency-color-50);
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-126);
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+.notification__main_content {
+    align-items: center;
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    box-shadow: var(--box-shadow-size);
+    border-radius: var(--border-radius-100);
+    border: 0.5px solid var(--dark-transparency-color-50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto;
+    height: 21%;
+    width: 40%;
+}
+
+.notification__main_title_box {
+    align-items: center;
+    background: var(--transparent-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    height: 60%;
+    width: 80%;
+}
+
+.notification__main_title_box_title {
+    color: var(--dark-color-50);
+    font-size: var(--font-size-of-145);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+}
+
+.notification__main_title_box_content {
+    color: var(--dark-color-50);
+    font-size: var(--font-size-of-135);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 59%;
+    width: 100%;
+}
+
+.notification__main_close_btn {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-75));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-75));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-75));
+	background: linear-gradient(var(--hover-gradient-background-color-75));
+    border-radius: var(--border-radius-100);
+    border: 0.5px solid var(--dark-transparency-color-50);
+    color: var(--dark-color-50);
+    cursor: pointer;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-130);
+    margin: 10px auto;
+    height: var(--height-size-08);
+    width: 40%;
+}
+
+.notification__main_close_btn:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+@media (max-width: 950px) {
+    .notification__main_content {
+        margin: auto;
+        height: 30%;
+        width: 95%;
+    }
+}

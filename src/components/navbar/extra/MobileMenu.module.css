@@ -1,0 +1,82 @@
+.atomo_navbar__main_mobile_content_btn,
+.atomo_navbar__main_mobile_content_group {
+    align-items: center;
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    box-shadow: var(--box-shadow-size);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-145);
+    position: absolute;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.atomo_navbar__main_mobile_content_btn {
+    border-radius: 0 0 var(--border-radius-100) var(--border-radius-100);
+    margin-bottom: 2rem;
+    min-height: var(--height-size-50);
+    height: 7%;
+    width: 40%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.atomo_navbar__main_mobile_content_group {
+    border-radius: var(--border-radius-100);
+    margin-bottom: 2rem;
+    min-height: var(--height-size-75);
+    min-width: 40%;
+    height: 60%;
+    width: fit-content;
+    top: calc(var(--height-size-50) + var(--height-size-05));
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.atomo_navbar__nav_mobile_content_group {
+    background: var(--transparent-background);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: var(--width-size-100);
+}
+
+.atomo_navbar__nav_mobile_content_item {
+    align-items: center;
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-100);
+    box-sizing: border-box;
+    color: var(--dark-color-50);
+    cursor: pointer;
+    display: flex;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-150);
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+    margin: 2px auto;
+    height: var(--height-size-50);
+    width: var(--width-size-75);
+}
+
+.atomo_navbar__nav_mobile_content_item:hover,
+.atomo_navbar__nav_mobile_content_active {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+.atomo_navbar__nav_mobile_content_active {
+    cursor: default !important;
+	pointer-events: none;
+	opacity: 0.6;
+}

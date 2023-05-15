@@ -1,0 +1,222 @@
+.task_layout__main_section,
+.task_layout__main_section_complete {
+    align-items: center;
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: var(--min-height-15-03);
+    height: var(--height-size-54);
+    width: 48%;
+}
+
+.task_layout__main_section:hover > .task_layout__main_data {
+    height: 62.5%;
+}
+
+.task_layout__main_section:hover > .task_layout__main_settings {
+    display: flex;
+    pointer-events: painted;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 15%;
+    width: 92%;
+}
+
+.task_layout__main_section {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    order: 1;
+}
+
+.task_layout__main_section_complete {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-60));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-60));
+	background: -o-linear-gradient(var(--box-gradient-background-color-60));
+	background: linear-gradient(var(--box-gradient-background-color-60));
+    pointer-events: none;
+    cursor: default;
+    order: 2;
+}
+
+.task_layout__main_section_complete button {
+    pointer-events: none;
+    cursor: default;
+}
+
+.task_layout__main_data {
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 5%;
+    pointer-events: none;
+    height: 80%;
+    width: 92%;
+}
+
+.task_layout__main_data_header {
+    align-items: center;
+    background: var(--transparent-background);
+    display: flex;
+    justify-content: baseline;
+    margin-top: var(--min-height-15-03);
+    height: fit-content;
+    width: 100%;
+}
+
+.task_layout__main_data_favourite {
+    background: var(--transparent-background);
+    margin-left: var(--min-height-15-03);
+    margin-right: var(--min-height-17);
+    height: var(--min-height-18);
+    width: var(--min-height-18);
+}
+
+.task_layout__main_favourite_on,
+.task_layout__main_favourite_off {
+    border: none;
+    cursor: pointer;
+    pointer-events: painted;
+    height: 100%;
+    width: 100%;
+}
+
+.task_layout__main_favourite_on {
+    background: var(--image-url-fav-on-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                var(--transparent-background);
+}
+
+.task_layout__main_favourite_off {
+    background: var(--image-url-fav-off-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                var(--transparent-background);
+}
+
+.task_layout__main_data_date {
+    background: var(--transparent-background);
+    height: fit-content;
+    width: 85%;
+}
+
+.task_layout__main_data_date p {
+    color: var(--dark-color-50);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: var(--font-size-of-135);
+    font-weight: bold;
+    text-align: left;
+    height: fit-content;
+    width: 100%;
+}
+
+.task_layout__main_data_text {
+    align-items: baseline;
+    background: var(--transparent-background);
+    display: flex;
+    justify-content: center;
+    margin-top: var(--min-height-17);
+    height: fit-content;
+    width: 98%;
+}
+
+.task_layout__main_data_text p {
+    color: var(--dark-color-50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-of-132);
+    text-align: center;
+}
+
+.task_layout__main_settings {
+    display: none;
+    pointer-events: none;
+}
+
+.task_layout__main_settings button {
+    align-items: center;
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-50);
+    color: var(--dark-color-50);
+    cursor: pointer;
+    display: flex;
+    font-family: CurrentGolden;
+    font-size: var(--font-size-of-126);
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 20%;
+}
+
+.task_layout__main_settings_delete {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-105));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-105));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-105));
+	background: linear-gradient(var(--hover-gradient-background-color-105));
+}
+
+.task_layout__main_settings_edit {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-104-02));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-104-02));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-104-02));
+	background: linear-gradient(var(--hover-gradient-background-color-104-02));
+}
+
+.task_layout__main_settings_done {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-103));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-103));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-103));
+	background: linear-gradient(var(--hover-gradient-background-color-103));
+}
+
+.task_layout__main_settings_delete:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-105-hover));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-105-hover));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-105-hover));
+	background: linear-gradient(var(--hover-gradient-background-color-105-hover));
+}
+
+.task_layout__main_settings_edit:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-104-02-hover));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-104-02-hover));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-104-02-hover));
+	background: linear-gradient(var(--hover-gradient-background-color-104-02-hover));
+}
+
+.task_layout__main_settings_done:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-103-hover));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-103-hover));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-103-hover));
+	background: linear-gradient(var(--hover-gradient-background-color-103-hover));
+}
+
+@media (max-width: 950px) {
+    .task_layout__main_section,
+    .task_layout__main_section_complete {
+        justify-content: flex-start;
+        margin: var(--min-height-15-03) auto;
+        height: var(--height-size-55);
+        width: 98%;
+    }
+
+    .task_layout__main_data,
+    .task_layout__main_section:hover > .task_layout__main_data {
+        height: 65%;
+    }
+
+    .task_layout__main_section_complete > .task_layout__main_data {
+        margin: auto;
+        height: 80%;
+    }
+
+    .task_layout__main_settings,
+    .task_layout__main_section:hover > .task_layout__main_settings {
+        display: flex;
+        pointer-events: painted;
+        margin-top: 2.5%;
+        height: 20%;
+        width: 92%;
+    }
+
+    .task_layout__main_settings button {
+        width: 26%;
+    }
+}

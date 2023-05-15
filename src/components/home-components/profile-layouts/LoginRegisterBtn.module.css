@@ -1,0 +1,45 @@
+.profile__login_box_content {
+    background: -moz-linear-gradient(var(--box-gradient-background-color-50));
+	background: -webkit-linear-gradient(var(--box-gradient-background-color-50));
+	background: -o-linear-gradient(var(--box-gradient-background-color-50));
+	background: linear-gradient(var(--box-gradient-background-color-50));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-100);
+    display: flex;
+    margin: var(--font-size-of-145) auto;
+    min-height: var(--height-size-51);
+    height: var(--height-size-52);
+    width: 90%;
+}
+
+.profile__login_box_content_btn {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-101));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-101));
+	background: linear-gradient(var(--hover-gradient-background-color-101));
+    border: 0.5px solid var(--dark-transparency-color-50);
+    border-radius: var(--border-radius-110);
+    cursor: pointer;
+    font-family: CurrentGolden;
+    font-size: var(--height-size-06-02);
+    margin: auto;
+    height: var(--height-size-08);
+    width: 40%;
+}
+
+.profile__login_box_content_btn:hover {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+}
+
+@media (max-width: 950px) {
+    .profile__login_box_content {
+        height: 16%;
+    }
+
+    .profile__login_box_content_btn {
+        height: 50%;
+    }
+}

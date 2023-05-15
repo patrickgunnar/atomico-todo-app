@@ -1,0 +1,33 @@
+.overlay_template__section {
+    display: flex;
+    position: fixed;
+    z-index: 19999;
+}
+
+.overlay_template__darkscreen {
+    align-items: center;
+    background: var(--dark-transparency-color);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    min-height: var(--min-height-size-50);
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes slide-up {
+    0%,
+    50% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+.overlay_template__main_content {
+    animation: slide-up 0.5s linear alternate;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}

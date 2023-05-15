@@ -1,0 +1,117 @@
+.home_page__main {
+    height: 100%;
+    width: 100%;
+}
+
+.home_page__main_content_section {
+    background: var(--transparent-background);
+    border-radius: var(--border-radius-100);
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.home_page__main_content_left_box_mobile {
+    display: none;
+}
+
+.home_page__main_content_left_box {
+    background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+	background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+	background: linear-gradient(var(--hover-gradient-background-color-100));
+    border-top-left-radius: var(--border-radius-100);
+    border-bottom-left-radius: var(--border-radius-100);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+
+.home_page__main_content_right_box {
+    background: var(--transparent-background);
+    border-top-right-radius: var(--border-radius-100);
+    border-bottom-right-radius: var(--border-radius-100);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+@media (max-width: 950px) {
+    .home_page__main_content_section {
+        overflow: hidden;
+        overflow-y: overlay;
+    }
+
+    .home_page__main_content_left_box {
+        display: none;
+    }
+
+    .home_page__main_content_left_box_mobile {
+        align-items: center;
+        align-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: var(--height-size-016);
+        width: 100%;
+    }
+
+    .home_page__main_content_left_box_mobile_opened {
+        height: fit-content;
+    }
+    
+    .home_page__main_mobile_btn {
+        background: var(--image-url-mobile-menu-on-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -moz-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-on-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -webkit-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-on-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -o-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-on-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    linear-gradient(var(--hover-gradient-background-color-101-02));
+        border-top-left-radius: var(--border-radius-100);
+        border-top-right-radius: var(--border-radius-100);
+        border: 0.5px solid var(--dark-transparency-color-50);
+        height: var(--height-size-016);
+        width: 100%;
+    }
+
+    .home_page__main_mobile_btn_opened {
+        background: var(--image-url-mobile-menu-off-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -moz-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-off-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -webkit-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-off-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    -o-linear-gradient(var(--hover-gradient-background-color-101-02));
+        background: var(--image-url-mobile-menu-off-sv) center center/var(--min-height-30) var(--min-height-30) no-repeat,
+                    linear-gradient(var(--hover-gradient-background-color-101-02));
+    }
+
+    .home_page__main_mobile_menu {
+        display: none;
+    }
+
+    .home_page__main_mobile_menu_opened {
+        align-content: flex-start;
+        background: -moz-linear-gradient(var(--hover-gradient-background-color-100));
+        background: -webkit-linear-gradient(var(--hover-gradient-background-color-100));
+        background: -o-linear-gradient(var(--hover-gradient-background-color-100));
+        background: linear-gradient(var(--hover-gradient-background-color-100));
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: var(--min-height-16);
+        height: var(--height-size-76);
+        width: 100%;
+    }
+
+    .home_page__main_content_right_box {
+        height: calc(100% - var(--height-size-50));
+        width: 100%;
+    }
+}
