@@ -27,7 +27,7 @@ export default function Home() {
 					<div>
 						<p className={styles.about_page__main_text}>{aboutData}</p>
 					</div>
-					<footer>© <a href="https://www.linkedin.com/in/patrickgunnar/" style="margin: 0 2px;">Patrick Gunnar</a> - All Rights Reserved</footer>
+					<footer>© <a href="https://www.linkedin.com/in/patrickgunnar/" className={styles.about_page__margin}>Patrick Gunnar</a> - All Rights Reserved</footer>
 				</section>
 			</main>
 		</>
