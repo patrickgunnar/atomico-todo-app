@@ -70,6 +70,10 @@
     width: 95%;
 }
 
+.about_page__margin {
+    margin: 0 2px;
+}
+
 @media (max-width: 950px) {
     .about_page__main,
     .about_page__main_section {
