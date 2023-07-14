@@ -3,19 +3,15 @@ import styles from './page.module.css'
 
 
 export default function Home() {
-	const aboutData = `Contrary to popular belief, Lorem Ipsum is not simply random text. 
-    It has roots in a piece of classical Latin literature from 45 BC, making 
-    it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
-    College in Virginia, looked up one of the more obscure Latin words, consectetur, 
-    from a Lorem Ipsum passage, and going through the cites of the word in classical 
-    literature, discovered the undoubtable source. Lorem Ipsum comes from sections 
-    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
-    by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular 
-    during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", 
-    comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since 
-    the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 
-    "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, 
-    accompanied by English versions from the 1914 translation by H. Rackham.`
+	const aboutData = `Hello, I'm Patrick Gunnar, I am a full-stack web developer. 
+ 	I'm collaborative and motivated team player who is passionate about finding solutions to problems. 
+  	I have over two years of experience in coding programming languages, frameworks, and libraries, 
+   	using bootcamps and other resouces to learn. I am proficient in Next.js, React.js, JavaScript, 
+    	TypeScript, HTML 5, CSS, tailwind and python. The Atomico To-Do List is a personal project of mine, 
+     	I wanted this application to be more than just a simple to-do list application. 
+      	I design it to be colourful and animated, using Next.js, React.js, HTML 5, CSS, MongoDB and JavaScript. 
+       	The application is completelly done and functional from the front-end to the back-end and database, 
+	I used for the registration and login handlers of this app, the Next Auth built-in tecnology.`  
 
 	return (
 		<>
@@ -31,7 +27,7 @@ export default function Home() {
 					<div>
 						<p className={styles.about_page__main_text}>{aboutData}</p>
 					</div>
-					<footer>© Patrick Gunnar - All Rights Reserved</footer>
+					<footer>© <a href="https://www.linkedin.com/in/patrickgunnar/">Patrick Gunnar</a> - All Rights Reserved</footer>
 				</section>
 			</main>
 		</>
