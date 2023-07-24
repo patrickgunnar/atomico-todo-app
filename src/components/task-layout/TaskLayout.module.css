@@ -52,7 +52,7 @@
     overflow: hidden;
     overflow-y: scroll;
     margin-top: 5%;
-    pointer-events: none;
+	margin-bottom: 5px;
     height: 80%;
     width: 92%;
 }
