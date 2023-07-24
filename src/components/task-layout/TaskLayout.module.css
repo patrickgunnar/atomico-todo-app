@@ -8,7 +8,8 @@
     justify-content: flex-start;
     margin: var(--min-height-15-03);
     height: var(--height-size-54);
-    width: 48%;
+	padding: 10px;
+    width: 50%;
 }
 
 .task_layout__main_section:hover > .task_layout__main_data {
