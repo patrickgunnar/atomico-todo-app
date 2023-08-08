@@ -9,7 +9,7 @@
     border: none;
     display: flex;
     margin: auto;
-    height: fit-content;
+    height: 90%;
     width: 70%;
 }
 
@@ -30,7 +30,6 @@
 }
 
 .about_page__main_section h1,
-.about_page__main_section div,
 .about_page__main_section footer {
     align-items: center;
     display: flex;
@@ -41,15 +40,8 @@
 
 .about_page__main_section h1 {
     font-family: CurrentGolden;
-    font-size: var(--height-size-07-02);
+    font-size: var(--height-size-07);
     height: 15%;
-    width: 80%;
-}
-
-.about_page__main_section div {
-    overflow: hidden;
-    overflow-y: scroll;
-    height: 65%;
     width: 80%;
 }
 
@@ -62,19 +54,29 @@
 }
 
 .about_page__main_text {
-    display flex;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--font-size-of-132);
     text-align: left;
     margin: auto;
-    height: 100%;
+    height: 80%;
     width: 95%;
     overflow: hidden;
     overflow-y: auto;
 }
 
-.about_page__margin {
-    margin: 0 2px;
+.about_page__main_text div {
+    display: flex;
+    gap: 6px;
+    font-family: inherit;
+    flex-direction: column;
+    text-align: left;
+}
+
+.about_page__main_text h2 {
+    font-size: inherit;
 }
 
 @media (max-width: 950px) {
