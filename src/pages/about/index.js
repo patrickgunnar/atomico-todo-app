@@ -24,7 +24,7 @@ export default function Home() {
 			<main className={styles.about_page__main}>
 				<section className={styles.about_page__main_section}>
 					<h1>Introducing Atomico: Where Productivity Meets Artistry in Perfect Harmony</h1>
-					<div>
+					<div className={styles.about_page__main_text}>
 						<div>
 					            <h2>Next.js: Pioneering Seamlessness and Agility</h2>
 					            <p>Atomico's foundation is built upon <strong>Next.js</strong>, ensuring your tasks are at your fingertips in an instant. With the power of server-side rendering and dynamic routing, navigating through your to-do list is a breeze, offering unparalleled performance and eliminating the need for tedious page reloads.</p>
