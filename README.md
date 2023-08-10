@@ -1,4 +1,4 @@
-# Introducing Atomico: Where Productivity Meets Artistry in Perfect Harmony
+# Introducing Atomico: Where Productivity Meets Artistry in Perfect Harmony 
 
 Step into the world of **Atomico**, a sublime creation that seamlessly blends cutting-edge technologies and captivating design to redefine the way you manage your tasks. With an intricate fusion of **Next.js**, **React.js**, **HTML5**, **CSS**, **MongoDB**, **JavaScript**, and the enchantment of **Next Auth**, Atomico isn't just a to-do list app – it's an experience that elevates your productivity journey.
 
